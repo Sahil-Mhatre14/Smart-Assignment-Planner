@@ -1,0 +1,147 @@
+{
+  "instance_name": "mixed_n10_seed42",
+  "description": "Mixed-regime synthetic instance: 10 assignments across a 10-day horizon. Generated with seed=42.",
+  "reference_time": "2026-04-24T08:00:00+00:00",
+  "assignments": [
+    {
+      "id": "A001",
+      "name": "PHYS200 Problem Set 1",
+      "course": "PHYS200",
+      "processing_time_hours": 4.2,
+      "deadline_hours": 171.6,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 4.0,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 2.43
+      },
+      "difficulty": 3
+    },
+    {
+      "id": "A002",
+      "name": "CS245 Final Report",
+      "course": "CS245",
+      "processing_time_hours": 8.7,
+      "deadline_hours": 166.3,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 24.2,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 3.81
+      },
+      "difficulty": 4
+    },
+    {
+      "id": "A003",
+      "name": "MATH250 Project Milestone 5",
+      "course": "MATH250",
+      "processing_time_hours": 7.2,
+      "deadline_hours": 158.7,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 13.1,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 2.36
+      },
+      "difficulty": 5
+    },
+    {
+      "id": "A004",
+      "name": "CS245 Problem Set 1",
+      "course": "CS245",
+      "processing_time_hours": 4.0,
+      "deadline_hours": 192.3,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 6.1,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 3.77
+      },
+      "difficulty": 3
+    },
+    {
+      "id": "A005",
+      "name": "PHYS200 Quiz Prep",
+      "course": "PHYS200",
+      "processing_time_hours": 2.2,
+      "deadline_hours": 134.0,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 2.5,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 2.79
+      },
+      "difficulty": 4
+    },
+    {
+      "id": "A006",
+      "name": "ECON120 Homework 4",
+      "course": "ECON120",
+      "processing_time_hours": 3.6,
+      "deadline_hours": 130.1,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 6.2,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 1.97
+      },
+      "difficulty": 3
+    },
+    {
+      "id": "A007",
+      "name": "MATH250 Lab Writeup 4",
+      "course": "MATH250",
+      "processing_time_hours": 2.5,
+      "deadline_hours": 94.4,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 3.6,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 2.11
+      },
+      "difficulty": 3
+    },
+    {
+      "id": "A008",
+      "name": "PHYS200 Lab Writeup 7",
+      "course": "PHYS200",
+      "processing_time_hours": 2.2,
+      "deadline_hours": 104.1,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 3.2,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 3.17
+      },
+      "difficulty": 3
+    },
+    {
+      "id": "A009",
+      "name": "CS255 Quiz Prep",
+      "course": "CS255",
+      "processing_time_hours": 1.3,
+      "deadline_hours": 58.6,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 2.0,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 5.22
+      },
+      "difficulty": 4
+    },
+    {
+      "id": "A010",
+      "name": "CS245 Project Milestone 3",
+      "course": "CS245",
+      "processing_time_hours": 6.2,
+      "deadline_hours": 150.8,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 13.5,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 3.59
+      },
+      "difficulty": 5
+    }
+  ]
+}
