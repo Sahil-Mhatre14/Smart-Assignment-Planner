@@ -1,0 +1,175 @@
+{
+  "instance_name": "mixed_n12_seed1",
+  "description": "Mixed-regime synthetic instance: 12 assignments across a 2.5-day horizon. Generated with seed=1.",
+  "reference_time": "2026-04-24T08:00:00+00:00",
+  "assignments": [
+    {
+      "id": "A001",
+      "name": "CS245 Problem Set 5",
+      "course": "CS245",
+      "processing_time_hours": 2.4,
+      "deadline_hours": 39.6,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 6.0,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 4.64
+      },
+      "difficulty": 4
+    },
+    {
+      "id": "A002",
+      "name": "CS255 Homework 1",
+      "course": "CS255",
+      "processing_time_hours": 3.1,
+      "deadline_hours": 30.8,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 3.0,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 5.11
+      },
+      "difficulty": 3
+    },
+    {
+      "id": "A003",
+      "name": "MATH250 Reading Response 4",
+      "course": "MATH250",
+      "processing_time_hours": 2.1,
+      "deadline_hours": 26.2,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 2.9,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 2.9
+      },
+      "difficulty": 1
+    },
+    {
+      "id": "A004",
+      "name": "PHYS200 Final Report",
+      "course": "PHYS200",
+      "processing_time_hours": 11.0,
+      "deadline_hours": 26.5,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 30.1,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 2.98
+      },
+      "difficulty": 5
+    },
+    {
+      "id": "A005",
+      "name": "CS 298 Final Report",
+      "course": "CS298",
+      "processing_time_hours": 10.0,
+      "deadline_hours": 33.9,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 25.5,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 3.28
+      },
+      "difficulty": 5
+    },
+    {
+      "id": "A006",
+      "name": "HIST101 Homework 5",
+      "course": "HIST101",
+      "processing_time_hours": 3.3,
+      "deadline_hours": 47.2,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 6.9,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 1.32
+      },
+      "difficulty": 4
+    },
+    {
+      "id": "A007",
+      "name": "ECON120 Reading Response 7",
+      "course": "ECON120",
+      "processing_time_hours": 1.8,
+      "deadline_hours": 30.5,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 2.9,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 2.23
+      },
+      "difficulty": 2
+    },
+    {
+      "id": "A008",
+      "name": "ECON120 Lab Writeup 9",
+      "course": "ECON120",
+      "processing_time_hours": 2.6,
+      "deadline_hours": 30.9,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 2.6,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 1.93
+      },
+      "difficulty": 2
+    },
+    {
+      "id": "A009",
+      "name": "CS255 Project Milestone 8",
+      "course": "CS255",
+      "processing_time_hours": 6.4,
+      "deadline_hours": 16.6,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 13.6,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 4.51
+      },
+      "difficulty": 5
+    },
+    {
+      "id": "A010",
+      "name": "ECON120 Problem Set 2",
+      "course": "ECON120",
+      "processing_time_hours": 4.6,
+      "deadline_hours": 21.0,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 4.8,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 1.73
+      },
+      "difficulty": 4
+    },
+    {
+      "id": "A011",
+      "name": "ENG110 Lab Writeup 5",
+      "course": "ENG110",
+      "processing_time_hours": 2.3,
+      "deadline_hours": 39.7,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 2.9,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 1.8
+      },
+      "difficulty": 3
+    },
+    {
+      "id": "A012",
+      "name": "PHYS200 Reading Response 7",
+      "course": "PHYS200",
+      "processing_time_hours": 2.2,
+      "deadline_hours": 30.0,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 1.0,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 3.16
+      },
+      "difficulty": 1
+    }
+  ]
+}
