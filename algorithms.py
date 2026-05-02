@@ -16,7 +16,8 @@ Comparing them shows where each strategy wins and loses.
 """
 
 from __future__ import annotations
-from scheduler import Assignment
+from itertools import permutations
+from scheduler import Assignment, compute_schedule
 
 
 def edf(assignments: list[Assignment]) -> list[Assignment]:
@@ -55,8 +56,26 @@ def wspt(assignments: list[Assignment]) -> list[Assignment]:
     return sorted(assignments, key=priority)
 
 
+def brute_force(assignments: list[Assignment]) -> list[Assignment]:
+    """
+    Exact optimal via exhaustive search over all n! permutations.
+    Practical only for small n (≤ ~10).
+    """
+    best_ordering = None
+    best_bleeding = float("inf")
+
+    for perm in permutations(assignments):
+        result = compute_schedule(list(perm))
+        if result.total_bleeding < best_bleeding:
+            best_bleeding = result.total_bleeding
+            best_ordering = list(perm)
+
+    return best_ordering
+
+
 # Registry of available algorithms — makes the CLI extensible.
 ALGORITHMS: dict[str, callable] = {
     "edf": edf,
     "wspt": wspt,
+    "brute_force": brute_force,
 }
