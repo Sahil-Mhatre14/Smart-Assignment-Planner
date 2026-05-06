@@ -1,0 +1,77 @@
+{
+  "instance_name": "mixed_n5_seed10",
+  "description": "Mixed-regime synthetic instance: 5 assignments across a 10-day horizon. Generated with seed=10.",
+  "reference_time": "2026-04-24T08:00:00+00:00",
+  "assignments": [
+    {
+      "id": "A001",
+      "name": "ENG110 Homework 7",
+      "course": "ENG110",
+      "processing_time_hours": 2.7,
+      "deadline_hours": 154.6,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 3.1,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 1.8
+      },
+      "difficulty": 3
+    },
+    {
+      "id": "A002",
+      "name": "PHYS200 Project Milestone 1",
+      "course": "PHYS200",
+      "processing_time_hours": 5.7,
+      "deadline_hours": 94.0,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 9.0,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 2.56
+      },
+      "difficulty": 4
+    },
+    {
+      "id": "A003",
+      "name": "ECON120 Reading Response 8",
+      "course": "ECON120",
+      "processing_time_hours": 1.9,
+      "deadline_hours": 76.2,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 1.1,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 1.86
+      },
+      "difficulty": 1
+    },
+    {
+      "id": "A004",
+      "name": "ENG110 Lab Writeup 4",
+      "course": "ENG110",
+      "processing_time_hours": 2.9,
+      "deadline_hours": 110.3,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 2.7,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 2.05
+      },
+      "difficulty": 2
+    },
+    {
+      "id": "A005",
+      "name": "MATH250 Lab Writeup 2",
+      "course": "MATH250",
+      "processing_time_hours": 2.9,
+      "deadline_hours": 97.3,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 4.3,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 2.18
+      },
+      "difficulty": 3
+    }
+  ]
+}
