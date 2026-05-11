@@ -1,0 +1,91 @@
+{
+  "instance_name": "mixed_n6_seed99",
+  "description": "Mixed-regime synthetic instance: 6 assignments across a 1.5-day horizon. Generated with seed=99.",
+  "reference_time": "2026-05-07T08:00:00+00:00",
+  "assignments": [
+    {
+      "id": "A001",
+      "name": "HIST101 Final Report",
+      "course": "HIST101",
+      "processing_time_hours": 9.6,
+      "deadline_hours": 26.8,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 23.5,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 1.49
+      },
+      "difficulty": 4
+    },
+    {
+      "id": "A002",
+      "name": "HIST101 Reading Response 6",
+      "course": "HIST101",
+      "processing_time_hours": 2.2,
+      "deadline_hours": 7.4,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 2.7,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 1.2
+      },
+      "difficulty": 1
+    },
+    {
+      "id": "A003",
+      "name": "CS245 Project Milestone 9",
+      "course": "CS245",
+      "processing_time_hours": 4.3,
+      "deadline_hours": 24.7,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 11.6,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 4.47
+      },
+      "difficulty": 3
+    },
+    {
+      "id": "A004",
+      "name": "ENG110 Lab Writeup 9",
+      "course": "ENG110",
+      "processing_time_hours": 2.3,
+      "deadline_hours": 14.6,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 2.1,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 2.09
+      },
+      "difficulty": 2
+    },
+    {
+      "id": "A005",
+      "name": "HIST101 Project Milestone 3",
+      "course": "HIST101",
+      "processing_time_hours": 6.1,
+      "deadline_hours": 21.6,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 9.4,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 1.76
+      },
+      "difficulty": 3
+    },
+    {
+      "id": "A006",
+      "name": "HIST101 Homework 3",
+      "course": "HIST101",
+      "processing_time_hours": 3.3,
+      "deadline_hours": 22.3,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 5.9,
+      "penalty": {
+        "type": "linear",
+        "rate_percent_per_hour": 1.45
+      },
+      "difficulty": 4
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "instance_name": "algo_compare_n5",
+  "description": "Crafted 5-task instance where EDF is worst, WSPT is middle, and Bitmask DP is optimal.",
+  "reference_time": "2026-05-06T08:00:00+00:00",
+  "assignments": [
+    {
+      "id": "A001",
+      "name": "CS245 Final Report",
+      "course": "CS245",
+      "processing_time_hours": 5.0,
+      "deadline_hours": 6.0,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 5.0,
+      "penalty": { "type": "linear", "rate_percent_per_hour": 3.0 },
+      "difficulty": 4
+    },
+    {
+      "id": "A002",
+      "name": "CS255 Quiz Prep",
+      "course": "CS255",
+      "processing_time_hours": 2.0,
+      "deadline_hours": 3.0,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 40.0,
+      "penalty": { "type": "linear", "rate_percent_per_hour": 10.0 },
+      "difficulty": 3
+    },
+    {
+      "id": "A003",
+      "name": "PHYS200 Problem Set",
+      "course": "PHYS200",
+      "processing_time_hours": 4.0,
+      "deadline_hours": 8.0,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 30.0,
+      "penalty": { "type": "linear", "rate_percent_per_hour": 8.0 },
+      "difficulty": 4
+    },
+    {
+      "id": "A004",
+      "name": "MATH250 Homework",
+      "course": "MATH250",
+      "processing_time_hours": 6.0,
+      "deadline_hours": 12.0,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 20.0,
+      "penalty": { "type": "linear", "rate_percent_per_hour": 5.0 },
+      "difficulty": 3
+    },
+    {
+      "id": "A005",
+      "name": "HIST101 Reading Response",
+      "course": "HIST101",
+      "processing_time_hours": 3.0,
+      "deadline_hours": 20.0,
+      "release_time_hours": 0.0,
+      "grade_weight_percent": 5.0,
+      "penalty": { "type": "linear", "rate_percent_per_hour": 2.0 },
+      "difficulty": 2
+    }
+  ]
+}
